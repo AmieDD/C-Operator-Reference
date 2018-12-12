@@ -11,6 +11,8 @@ Operators C# Reference
 
 ```C# runnable
 // { autofold
+    }
+// }
 using System;
 
 class InequalityTest
