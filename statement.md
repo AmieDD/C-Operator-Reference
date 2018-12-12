@@ -10,9 +10,7 @@ Operators C# Reference
 
 
 ```C# runnable
-// { autofold
-    }
-// }
+
 using System;
 
 class InequalityTest
@@ -39,9 +37,7 @@ class InequalityTest
     }
 }
 
-// { autofold
-    }
-// }
+
 ```
 
 # Advanced usage
