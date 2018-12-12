@@ -41,6 +41,6 @@ class InequalityTest
 
 ```
 
-# Advanced usage
+# About C# != Operators
 
 The inequality operator (!=) returns false if its operands are equal, true otherwise. Inequality operators are predefined for all types, including string and object. User-defined types can overload the != operator.
