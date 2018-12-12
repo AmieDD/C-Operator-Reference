@@ -36,16 +36,9 @@ class InequalityTest
         Console.WriteLine((object)a != (object)b);
     }
 }
-/*
-Output:
-False
-True
-False
-False
-*/
+
 // { autofold
     }
-}
 // }
 ```
 
