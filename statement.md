@@ -27,8 +27,8 @@ class InequalityTest
         Console.WriteLine(s != t);
 
         // String equality: same string value, same string objects
-        string a = "hello";
-        string b = "hello";
+        string a = "howdy";
+        string b = "howdy";
 
         // compare string values
         Console.WriteLine(a != b);
