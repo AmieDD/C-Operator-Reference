@@ -1,19 +1,48 @@
 # Welcome!
+No need to download anything, this code works in your browswer
+AmieDD www.amiedd.com
+Code, Cosplay, and Games
 
-This C# template lets you get started quickly with a simple one-page playground.
+
+Operators C# Reference
+!=
+
+
 
 ```C# runnable
 // { autofold
 using System;
 
-class Hello 
+class InequalityTest
 {
-    static void Main() 
+    static void Main()
     {
-// }
+        // Numeric inequality:
+        Console.WriteLine((2 + 2) != 4);
 
-Console.WriteLine("Hello World!");
+        // Reference equality: two objects, same boxed value
+        object s = 1;
+        object t = 1;
+        Console.WriteLine(s != t);
 
+        // String equality: same string value, same string objects
+        string a = "hello";
+        string b = "hello";
+
+        // compare string values
+        Console.WriteLine(a != b);
+
+        // compare string references
+        Console.WriteLine((object)a != (object)b);
+    }
+}
+/*
+Output:
+False
+True
+False
+False
+*/
 // { autofold
     }
 }
